@@ -3,3 +3,12 @@ header {
     font-family: "Mouse Memoirs", sans-serif;
     text-align: center;
 }
+body{
+    background-color: lawngreen;
+    font-family: 'Geo', sans-serif;
+    text-indent: 1.25em;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column: 2 / 3;
+}
+
