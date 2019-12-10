@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Geo:400,400i|Mouse+Memoirs&display=swap');
 header {
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, .4);
     font-family: "Mouse Memoirs", sans-serif;
+
     text-align: center;
+
 }
 body{
-    background-color: lawngreen;
     font-family: 'Geo', sans-serif;
     text-indent: 1.25em;
+  font-size: 1.25em;
+    background-image: url(https://cdnassets.hw.net/dims4/GG/fe4351e/2147483647/resize/876x%3E/quality/90/?url=https%3A%2F%2Fcdnassets.hw.net%2F29%2Fa2%2F543f7c374cd8a20b2db4c1320399%2Fwinter.jpg);
+    background-size: 100%;  
+    background-attachment: fixed;
+    color: rgb(0, 0, 255);
+}
+.page-wrapper{ 
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-column: 2 / 3;
+    grid-template-columns: repeat(12, 1fr);
+}
+.intro{
+    grid-column-start: 2;
+    grid-column-end: 11;
+}
+.main{
+    grid-column-start: 2; 
+    grid-column-end: 7;
+}
+.sidebar{
+    grid-column-start: 8; 
+    grid-column-end: 11;
+    background-color: rgba(255, 255, 255, .6)
 }
 
