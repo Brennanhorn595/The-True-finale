@@ -10,7 +10,7 @@ body{
     font-family: 'Geo', sans-serif;
     text-indent: 1.25em;
   font-size: 1.25em;
-    background-image: url(https://cdnassets.hw.net/dims4/GG/fe4351e/2147483647/resize/876x%3E/quality/90/?url=https%3A%2F%2Fcdnassets.hw.net%2F29%2Fa2%2F543f7c374cd8a20b2db4c1320399%2Fwinter.jpg);
+    background-image: url(https://www.inntravel.co.uk/getmedia/4cbff9e5-1cc4-4635-a5c1-de9a39213268/SwissView2-2?width=1858&height=871&ext=.jpg);
     background-size: 100%;  
 }
 .page-wrapper{ 
@@ -28,4 +28,7 @@ body{
 .sidebar{
     grid-column-start: 10; 
     grid-column-end: 13;
+}
+footer{
+    text-align: center;
 }

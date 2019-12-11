@@ -8,8 +8,8 @@ header {
 }
 body{
     font-family: 'Geo', sans-serif;
-    text-indent: 1.25em;
-  font-size: 1.25em;
+  font-size: 25px;
+  line-height: 132.5%;
     background-image: url(https://cdnassets.hw.net/dims4/GG/fe4351e/2147483647/resize/876x%3E/quality/90/?url=https%3A%2F%2Fcdnassets.hw.net%2F29%2Fa2%2F543f7c374cd8a20b2db4c1320399%2Fwinter.jpg);
     background-size: 100%;  
     background-attachment: fixed;
@@ -32,4 +32,12 @@ body{
     grid-column-end: 11;
     background-color: rgba(255, 255, 255, .6)
 }
-
+footer{
+    text-align: center;
+}
+section.indents p{
+   text-indent: 1.25em; 
+}
+section.indents p:first-of-type{
+    text-indent: 0%;
+}
