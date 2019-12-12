@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Geo:400,400i|Mouse+Memoirs&display=swap');
 header {
-    background-color: rgba(0, 255, 255, .4);
+    background-color: greenyellow;
     font-family: "Mouse Memoirs", sans-serif;
-
     text-align: center;
-
 }
 body{
     font-family: 'Geo', sans-serif;
-  font-size: 25px;
-  line-height: 132.5%;
+    font-size: 25px;
+    line-height: 132.5%;
     background-image: url(https://cdnassets.hw.net/dims4/GG/fe4351e/2147483647/resize/876x%3E/quality/90/?url=https%3A%2F%2Fcdnassets.hw.net%2F29%2Fa2%2F543f7c374cd8a20b2db4c1320399%2Fwinter.jpg);
     background-size: 100%;  
     background-attachment: fixed;
-    color: rgb(0, 0, 255);
 }
 .page-wrapper{ 
     display: grid;
@@ -21,23 +18,34 @@ body{
 }
 .intro{
     grid-column-start: 2;
-    grid-column-end: 11;
+    grid-column-end: 12;
+    background-color: rgba(255, 255, 255, .6);
 }
 .main{
     grid-column-start: 2; 
     grid-column-end: 7;
+    background-color: rgba(255, 255, 255, .6);
 }
 .sidebar{
     grid-column-start: 8; 
-    grid-column-end: 11;
-    background-color: rgba(255, 255, 255, .6)
+    grid-column-end: 12;
+    background-color: rgba(255, 255, 255, .6);
 }
 footer{
     text-align: center;
+    background-color: rgba(255, 255, 255, .6);
 }
-section.indents p{
-   text-indent: 1.25em; 
+::first-line{
+    text-indent: 1.25em;
 }
-section.indents p:first-of-type{
-    text-indent: 0%;
+::first-letter{
+    font-size: 1.5em;
+    color: green;
+}
+.main, .sidebar, .intro{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+a:visited, a:link{
+    color: green ;
 }

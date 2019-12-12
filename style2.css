@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Geo:400,400i|Mouse+Memoirs&display=swap');
 header {
-    background-color: teal;
+    background-color: rgba(0, 255, 0, 0.6);
     font-family: "Mouse Memoirs", sans-serif;
-color: #000;
     text-align: center;
-
 }
 body{
     font-family: 'Geo', sans-serif;
-    text-indent: 1.25em;
-  font-size: 1.25em;
-    background-image: url(https://www.inntravel.co.uk/getmedia/4cbff9e5-1cc4-4635-a5c1-de9a39213268/SwissView2-2?width=1858&height=871&ext=.jpg);
-    background-size: 100%;  
+    font-size: 1.25em;
+    background-image: url(https://media2.giphy.com/media/TZf4ZyXb0lXXi/giphy.gif);
+    background-size: 100%; 
+    line-height: 1.325em; 
+    background-attachment: fixed;  
 }
 .page-wrapper{ 
     display: grid;
@@ -20,15 +19,35 @@ body{
 .intro{
     grid-column-start: 1;
     grid-column-end: 13;
+    background-color:rgba(0, 255, 0, 0.6);
 }
 .main{
-    grid-column-start: 1; 
-    grid-column-end: 10;
+    grid-column-start: 2; 
+    grid-column-end: 7;
+    background-color: rgba(0, 255, 0, 0.6);
 }
 .sidebar{
-    grid-column-start: 10; 
-    grid-column-end: 13;
+    grid-column-start: 8; 
+    grid-column-end: 11;
+    background-color:  rgba(0, 255, 0, 0.6);
 }
 footer{
     text-align: center;
+    background-color: rgba(0, 255, 0, 0.6);
+}
+::first-letter{
+    font-size: 1.5em;
+    color: royalblue;
+}
+.main, .sidebar, .intro{
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 132.5%;
+    font-size: 1.25em;
+}
+a:visited, a:link{
+    color: royalblue;
+}
+::first-line{
+    text-indent: 1.325em;
 }
